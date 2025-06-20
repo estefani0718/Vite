@@ -10,9 +10,6 @@ async function posts() {
  
 async function crear(posts) {
 
-
-  
-
   let t = document.createElement("table");
   let h = document.createElement("thead");
   let id = document.createElement("th");
