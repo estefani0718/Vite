@@ -36,10 +36,12 @@ window.addEventListener('DOMContentLoaded', async () => {
 })
 
 async function cargarVistas(hash) {
-  const vistas = await fetch(`../src/view/${hash}/index.html`);
-  const respuesta = await vistas.text();
-  main.innerHTML = respuesta;
-  main.innerHTML = respuesta;
+ const recorrer =  rutas.find((objeto)=>objeto.nombre ===hash);
+ const respuesta = await fetch(recorrer.path);
+ const vista=await respuesta.text();
+  main.innerHTML = vista;
+  recorrer.controlador();
+  
 }
 
 
