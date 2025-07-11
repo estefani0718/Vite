@@ -1,39 +1,41 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <title>Vite</title>
-  </head>
-  <body>
-<header class="header">
-  <div class="header__container">
-    <div class="header__logo">
-      <img src="/logo.jpg" alt="Logo " class="header__logo-img" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <title>Vite</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img src="/logo.jpg" alt="Logo " class="header__logo-img" />
+      </div>
+
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#categorias" class="header__menu-link">Categorías</a></li>
+          <li class="header__menu-item"><a href="#productos" class="header__menu-link">Productos</a></li>
+        </ul>
+
+        <ul class="header__auth">
+          <li class="header__auth-item"><a href="#login" class="header__auth-link">Login</a></li>
+          <li class="header__auth-item"><a href="#registrarse" class="header__auth-link">Registrarse</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <nav class="header__nav">
-      <ul class="header__menu">
-        <li class="header__menu-item"><a href="#categorias" class="header__menu-link">Categorías</a></li>
-        <li class="header__menu-item"><a href="#productos" class="header__menu-link">Productos</a></li>
-        
-      </ul>
+  <main class="main">
 
-      <ul class="header__auth">
-        <li class="header__auth-item"><a href="#login" class="header__auth-link">Login</a></li>
-        <li class="header__auth-item"><a href="#registrarse" class="header__auth-link">Registrarse</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
 
-   <main class="main">
-
-   </main>
-   <script type="module" src="/src/main.js"></script>
-  </body>
 </html>
