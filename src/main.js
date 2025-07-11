@@ -2,12 +2,9 @@ import './style.css'
 
 import { categoriaController } from "./view/categorias/categoriaController.js";
 import { productoController } from "./view/productos/productosController.js";
-let main = document.querySelector('.main')
 
-
-
+let main = document.querySelector('.main');
 const rutas = [
-
   {
     nombre: "categorias",
     path: "../src/view/categorias/index.html",
