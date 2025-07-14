@@ -6,23 +6,17 @@ export async function categoriaController() {
 }
 // Esta función recibe la lista y crea la tabla
 async function crear(data) {
-
-  const divCrear = document.createElement("div");
-  const btnNuevo= document.createElement("button");
-  const enlaceBtn=document.querySelector("a");
-  
   // Creamos contenedor y tabla
   const contenedor = document.createElement("div");
   contenedor.classList.add("caja-tabla");
 
   const tabla = document.createElement("table");
   tabla.classList.add("mi-tabla");
-
   // Encabezado de  la tabla
   const encabezado = document.createElement("thead");
   const filaEncabezado = document.createElement("tr");
  
-  // recorre con el foreach cada item que esta dentro del arreglo , la cual crea las columnas 
+  
   const columnas = ["ID", "Título", "Contenido" ,"opciones"];
   // recorre con el foreach cada item que esta dentro del arreglo , la cual crea las columnas 
   columnas.forEach(col => {
@@ -33,11 +27,10 @@ async function crear(data) {
   });
    // se agrega al encabezado
   encabezado.appendChild(filaEncabezado);
-
   // Cuerpo
    const cuerpo = document.createElement("tbody");
    // recorro cada post y se añade a la fila
-  data.forEach(categoria=>{
+   data.forEach(categoria=>{
     // creamos las filas 
     const fila = document.createElement("tr");
     fila.classList.add("fila-data");

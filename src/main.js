@@ -22,6 +22,9 @@ const rutas = [
     controlador:formularioController
   }
   
+  // se crean nuevas rutas en  un archivo = router.js
+  // login 
+  // registro
 ]
 
 window.addEventListener('hashchange', async () => {

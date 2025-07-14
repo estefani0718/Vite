@@ -81,10 +81,10 @@ li{
 .caja-tabla {
   margin-top: 20px;
   padding: 15px;
-  background-color: #fefefe;
-  border-radius: 20%;
+  background-color: #fefefe;  
   width: 50%;
   margin: 0 auto;
+  
   
 }
 
@@ -94,7 +94,7 @@ li{
 }
 
 .celda-header {
-  background-color: #f2f2b6;
+  background-color:#BFB9CF ;
   color: white;
   padding: 10px;
   border: 1px solid;
@@ -102,23 +102,32 @@ li{
 
 .celda-data {
   padding: 8px;
-  border: 1px solid #ddd;
 }
 
 .fila-data {
   background-color: #f2f2f2;
-  
 }
-.button{
-  width: 3vw;
-  height: 1vw;
-  background-color: #BFB9CF;
-  padding: 2px;
+a{
+  text-decoration: none;
+}
+.container__buton{
+  width: 20%;
+  height: auto;
   display: flex;
-  text-align: center;
-  border-radius: 20px;
-  border: none;
+ 
 }
+.button {
+  width: 40%;
+  padding: 12px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/* formulario categoria */
 .form__crear {
   max-width: 400px;
   margin: 50px auto; /* centra */
@@ -135,20 +144,8 @@ li{
   color: #333;
 }
 
-.form__inputs{
 
-}
-.button {
-  width: 100%;
-  padding: 12px;
-  background-color: #666;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
+
 
 .form__crear button:hover {
   background-color: #45a049;
