@@ -25,6 +25,8 @@ const rutas = [
   // se crean nuevas rutas en  un archivo = router.js
   // login 
   // registro
+  //tarea 
+  
 ]
 
 window.addEventListener('hashchange', async () => {
