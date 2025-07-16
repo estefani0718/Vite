@@ -48,7 +48,7 @@ async function crear(data) {
     tdContenido.classList.add("celda-data");
     //agregamos las acciones que son los botones
     const btnEliminar = document.createElement("button");
-    const btnEditar = document.createElement("a");
+     const btnEditar = document.createElement("a");
     btnEditar.textContent = "Editar";
     btnEliminar.textContent = "Eliminar"   
     btnEditar.classList.add("button");
